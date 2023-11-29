@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:rgba(0,0,0,0.7)url("images/img3.webp"); 
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover ;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.btn{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia ,Times, 'Times New Roman', serif;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+nav ul li a{    
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+nav ul li:hover{
+    transform: translateY(-10px);
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+p{
+    
+    color: #fff;
+    line-height: 45px;
+    
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    cursor: pointer;
+
+}
+
+.card1{
+    background-image: url(images/Miss.jpg);
+}
+.card2{
+    background-image: url(images/cons.jpg);
+}
+.card3{
+    background-image: url(images/vall.jpg);
+}
+.card4{
+    background-image: url(images/valley.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.btn:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: black;
+    text-shadow: 0 0 5px;
+    font-size: 12px;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.card a{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+h3{
+    color: rgb(253, 251, 251);
+    font-size: 20px;
+    text-align: end;
+}
